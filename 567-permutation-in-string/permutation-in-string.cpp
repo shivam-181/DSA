@@ -22,7 +22,7 @@ public:
             
             if (mp.find(letter[i]) != mp.end()) 
             {
-                if (mp[letter[i]] == 0) count++;
+                if (mp[letter[i]] == 0) count++;// this is when count!=0
                 mp[letter[i]]++;
             }
             i++;
